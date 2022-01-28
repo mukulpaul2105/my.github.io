@@ -1,0 +1,42 @@
+
+.container {
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container img {
+   width: 100px;
+   height: 100px ;
+   box-sizing: border-box;
+   border: 3px solid transparent;
+   cursor: pointer;
+}
+
+.container img:hover {
+   border: 3px solid tomato;
+   transform: scale(1.2); /* To change size*/
+}
+
+.overlay { /* When we click on the image we need fixed the display,
+   change the backgraound color and zoom the image */
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(170, 170, 170, 0.8);
+}
+.overlay img {
+   max-width: 70vw;
+   max-height: 70vh;
+}
+
+.d-none { /* Before clicking the image we need to show all the images and a default backgraound
+   color thats why we create this attribute 
+   Basically its fuction works before clicking the image */
+   display: none;
+}
