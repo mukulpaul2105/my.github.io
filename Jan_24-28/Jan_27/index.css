@@ -1,0 +1,28 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.todo_item , .todo_item {
+   display: flex;
+   justify-content: space-between;
+}
+
+i {
+   color: #ee0000;
+   font-size: 20px;
+   align-items: flex-end;
+}
+
+.input_form input {
+   padding: 5px 10px;
+   margin-right: 5px;
+}
+
+.todo_item {
+   margin: 10px 0;
+}
