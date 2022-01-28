@@ -1,0 +1,54 @@
+<html>
+  <body>
+    <h3>Geekster Admission Form</h3>
+    <!-- text, email, password, number, data, checkbox, radio, range, submit, color, reset, file, tel, url-->
+
+    <form>
+      <!-- It contains various input files. Only data which is inside the form will go to packet.
+                    outside the form what ever the data may put will not go even if we pess submit button-->
+      <input
+        type="test"
+        name="First_Name"
+        placeholder="First Name"
+        name="first"
+        required />  <!-- required- without filling the first name it will not allow to submit the form-->
+      
+      <br />
+      <input type="test" name="Last_Name" placeholder="Last Name" name="last" required/>
+      <br />
+      <input type="date" />
+      <br />
+      <input type="email" placeholder="Email" name="email" required/>
+      <br />
+      <input type="password" placeholder="Enter Password" name="password" required minlength="6" maxlength="10" 
+       />
+       <br/>
+       <input type="text" placeholder="City" 
+       value="Kokrajhar" 
+       name="city" readonly /> <!-- value = default , randomly = does not allow to write, we can also not allow to write by name = "city" disabled-->
+      <br />
+      <input type="number" placeholder = "Marks"
+      name="college_marks" min="0" max="100" />
+
+      <br/>
+      <br/>
+      <select name="Country" required value = "">
+          <option value= "">Select the Country</option> <!-- desabled selected will not allow to send the data to the server-->
+          <option value="01">(+91) India</option>
+          <option value="02">Sri Lanka</option>
+          <option value="03">Nepal</option>
+          <option value="04">China</option>
+          <option value="05">USA</option>
+          <option value="06">Japan</option>
+          <option value="07">UAE</option>
+          <option value="08">Affrica</option>
+      </select>
+      
+      <br/>
+      <br />
+      <input type="submit" />
+      <br/>
+      <br/>
+    </form>
+  </body>
+</html>

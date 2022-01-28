@@ -1,0 +1,141 @@
+<html>
+  <body>
+    <table align="center">
+      <th>
+        Geekster
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </th>
+      <td>Home&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>
+        <select name="Courses">
+          <option desabled selected>Courses&nbsp;&nbsp;</option>
+        </select>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;Hire Geekster&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Blog&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>
+        Contect
+        Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </td>
+      <td><button>Apply Now</button></td>
+    </table>
+
+    <br />
+    <h1 align="center">Application Form</h1>
+    <br />
+
+    <section align="center">
+      <form>
+        <p>Full Name*</p>
+        <input
+          type="text"
+          name="first_name"
+          placeholder="First Name"
+          minlength="3"
+          required
+        />
+
+        <input
+          type="text"
+          name="last_name"
+          placeholder="Last Name"
+          minlength="3"
+          required
+        />
+        <br />
+        <br />
+
+        <p>Email*</p>
+        <input type="email" placeholder=" Enter Your Email" name="email" required />
+        <br />
+        <br />
+
+        <p>Date of Birth*</p>
+        <input type="date" required/>
+        <br />
+        <br />
+
+        <p>Country*</p>
+        <select name="country" required value = "">
+          <option value="">Select the Country</option>
+          <option value="India">India</option>
+          <option value="Sri Lanka">Sri Lanka</option>
+          <option value="Nepal">Nepal</option>
+          <option value="China">China</option>
+          <option value="USA">USA</option>
+          <option value="Japan">Japan</option>
+          <option value="UAE">UAE</option>
+          <option value="Affrica">Affrica</option>
+        </select>
+        <br/>
+
+        <p>Phone*</p>
+        <input 
+          type="number"
+          placeholder="Enter Phon Number"
+          name="phon"
+          required
+          min="6000000000"
+          max="9999999999"
+        />
+        <br />
+        <br />
+
+        <p>Highest Degree*</p>
+        <input
+          type="text"
+          placeholder="Enter your Highest Degree"
+          name="highest_degree"
+          minlength="2"
+          required
+        />
+        <br />
+        <br />
+
+        <p>Year of Compelation*</p>
+        <select name="highest_degree_copelation_year" required value = "" >
+            <option value="">Select the year of Compelation</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+          </select>
+        <br />
+        <br />
+
+        <p>Select Course*</p>
+        <select name="course" required value = "">
+            <option align = "center" value = "">Select Course</option>
+            <option value="F_S_W_D">Full Stack Web Development</option>
+            <option value="A_W_D">Advanced Web Development</option>
+          </select>
+        <br />
+        <br />
+
+        <p>Programing Skills*</p>
+        <select name="coding_skills" required value = ""required>
+            <option align = "center" value ="">Select</option>
+            <option value="no_coding_skills">No coding skills</option>
+            <option value="basic_coding_skills">Basic coding skills</option>
+            <option value="intermediate_coding_skills">Intermediate coding skills</option>
+            <option value="good_coding_skils">Good coding skils</option>
+          </select>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <input type="submit" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </form>
+    </section>
+  </body>
+</html>
